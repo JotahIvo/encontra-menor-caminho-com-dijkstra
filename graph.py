@@ -14,6 +14,11 @@ def create_graph(cities):
         if n_childrens > 0:
             for i in range(1, n_childrens+1):
                 name_children = str(input("Qual o nome da cidade? "))
+
+                while name_children not in cities:
+                    print(f"\nInsira uma cidade válida ({name_children} não existe.)")
+                    name_children = str(input("Qual o nome da cidade? "))
+
                 distance = int(input(f"Qual a distância entre {city} e {name_children} em Km? "))
 
                 graph[city][name_children] = distance
