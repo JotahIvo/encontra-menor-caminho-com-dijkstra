@@ -52,3 +52,13 @@ def create_parents_graph(graph, cities):
             parents[nodo] = None
 
     return parents
+
+
+def travel_cost(graph, route):
+    cost = 0
+    for i in range(len(route)-1):
+        cost += int(graph[route[i]][route[i+1]])
+    
+    return cost
+        
+
