@@ -3,7 +3,7 @@
 ### Este programa recebe as cidades de origem, destino e as cidades entre elas, cria um grafo para poder mapear estas cidades e suas distâncias e com o auxílio do algoritmo de Dijkstra encontra o menor caminho saindo da cidade de origem até a cidade de destino. Código semelhante aos que aplicativos como Waze e Google Maps usam!
 > O programa está em português e o código fonte está em inglês.
 ## Requisitos
-* É necessário ter instalado a versão mais recente do Python no seu computador.
+* É necessário ter instalado a versão mais recente do Python no seu computador!
 ## Como utilizar
 ### Instalando o programa:
 ```bash
